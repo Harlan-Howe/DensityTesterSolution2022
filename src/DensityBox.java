@@ -34,7 +34,12 @@ public class DensityBox
         fractionFilled = fraction;
     }
 
-
+    public String toString()
+    {
+        String result = "("+width+" cm x "+height+" cm x "+depth+" cm) box filled "+fractionFilled;
+        result+= " full of fluid with density "+fluidDensity+" g/cm^3)";
+        return result;
+    }
 
 
 
