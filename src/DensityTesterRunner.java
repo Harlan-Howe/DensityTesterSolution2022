@@ -14,7 +14,7 @@ public class DensityTesterRunner
         //Part 2 =================================================================
         // make constructors to fulfill the requirements outlined in part 2 of the instructions.
 
-        /*
+
         DensityBox BoxB = new DensityBox (5, 7, 12);
         System.out.println("Box B: "+BoxB);
 
@@ -24,7 +24,7 @@ public class DensityTesterRunner
         DensityBox BoxD = new DensityBox (8, 3, 11, 0.25, 3.75);
         System.out.println("Box D: "+BoxD);
 
-        */
+
 
         // Part 3 =================================================================
         /*
