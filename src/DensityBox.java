@@ -56,7 +56,35 @@ public class DensityBox
         return depth;
     }
 
+    public double getFluidDensity()
+    {
+        return fluidDensity;
+    }
 
+    public double getFractionFilled()
+    {
+        return fractionFilled;
+    }
+
+    public int getOverallVolume()
+    {
+        return width * height * depth;
+    }
+
+    public double getFilledVolume()
+    {
+        return getOverallVolume()*fractionFilled;
+    }
+
+    public double getMass()
+    {
+        return getFilledVolume() * fluidDensity;
+    }
+
+    public boolean canFloat()
+    {
+        return (getMass()/getOverallVolume())<1.0;
+    }
 
 
 }
