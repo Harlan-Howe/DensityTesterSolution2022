@@ -27,13 +27,13 @@ public class DensityTesterRunner
 
 
         // Part 3 =================================================================
-        /*
+
         System.out.println("Box B has width: "+BoxB.getWidth()+"\theight: "+BoxB.getHeight()+"\tand depth: "+BoxB.getDepth);
         System.out.println("Box B is "+BoxB.getFractionFilled()*100+"% full of fluid with density "+BoxB.getFluidDensity+" times that of water.");
         System.out.println("Box C has overall volume "+BoxC.getOverallVolume());
         System.out.println("Box A has filled volume "+BoxA.getFilledVolume());
         System.out.println("Box D has mass "+BoxD.getMass());
-        */
+
         
         // Part 4 =================================================================
         /*
