@@ -91,4 +91,11 @@ public class DensityBox
         fractionFilled = fraction;
     }
 
+    public boolean heavierThan(DensityBox B)
+    {
+        return this.getMass() > B.getMass();
+    }
+
+    
+
 }
