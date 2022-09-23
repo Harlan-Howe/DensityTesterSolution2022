@@ -86,5 +86,9 @@ public class DensityBox
         return (getMass()/getOverallVolume())<1.0;
     }
 
+    public void setFractionFilled(double fraction)
+    {
+        fractionFilled = fraction;
+    }
 
 }
