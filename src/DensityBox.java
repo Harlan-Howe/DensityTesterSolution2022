@@ -96,6 +96,19 @@ public class DensityBox
         return this.getMass() > B.getMass();
     }
 
-    
+    public boolean fillWith(DensityBox B)
+    {
+        if (this.getFluidDensity() != B.getFluidDensity())
+            return false;
+        double bVolume = B.getFilledVolume();
+
+        double fractionBWouldFill = bVolume/this.getOverallVolume();
+        if (this.getFractionFilled() + fractionBWouldFill > 1.0)
+            return false;
+
+        this.setFractionFilled(this.getFractionFilled()+fractionBWouldFill);
+        B.setFractionFilled(0.0);
+        return true;
+    }
 
 }
