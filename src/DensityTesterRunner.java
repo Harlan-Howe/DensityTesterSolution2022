@@ -36,12 +36,12 @@ public class DensityTesterRunner
 
         
         // Part 4 =================================================================
-        
+
         System.out.println("The following boxes will float:");
-        System.out.println("A: "+BoxA.willFloat());
-        System.out.println("B: "+BoxB.willFloat());
-        System.out.println("A: "+BoxC.willFloat());
-        System.out.println("B: "+BoxD.willFloat());
+        System.out.println("A: "+BoxA.canFloat());
+        System.out.println("B: "+BoxB.canFloat());
+        System.out.println("C: "+BoxC.canFloat());
+        System.out.println("D: "+BoxD.canFloat());
 
         
         // Part 5 =================================================================
