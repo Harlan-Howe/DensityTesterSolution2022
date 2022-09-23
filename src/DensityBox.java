@@ -27,7 +27,7 @@ public class DensityBox
         fractionFilled = fraction;
     }
 
-    public DensityBox(int w, int h, int d, double density, double fraction)
+    public DensityBox(int w, int h, int d, double fraction, double density)
     {
         this(w,h,d);
         fluidDensity = density;
