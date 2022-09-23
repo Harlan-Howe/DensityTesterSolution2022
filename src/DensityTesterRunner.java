@@ -63,7 +63,7 @@ public class DensityTesterRunner
 
 
         // Part 7 =================================================================
-        /*
+
         System.out.println("Trying to add C to D.");
         System.out.println(BoxD.fillWith(BoxC)); // should print false, since densities don't match.
         System.out.println(BoxC+"\n"+BoxD); // both boxes should be unchanged.
@@ -75,7 +75,7 @@ public class DensityTesterRunner
         System.out.println("Trying to add B to A");
         System.out.println(BoxA.fillWith(BoxB)); // should print true, since transfer can happen.
         System.out.println(BoxA+"\n"+BoxB); // BoxA should now be 0.71 fractionFilled. BoxB should now be 0.00 fractionFilled.
-        */
+
     }
 
 }
