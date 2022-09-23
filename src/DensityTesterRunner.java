@@ -45,14 +45,14 @@ public class DensityTesterRunner
 
         
         // Part 5 =================================================================
-        /*
+
         System.out.println("Filling Box C to 0.85.");
         BoxC.setFractionFilled(0.85);
         System.out.println(BoxC);
         System.out.println("Increasing Box D by 0.45.");
         BoxD.setFractionFilled(BoxD.getFractionFilled()+0.45);
         System.out.println(BoxD);
-        */
+
 
         // Part 6 =================================================================
         /*
