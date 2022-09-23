@@ -20,7 +20,7 @@ public class DensityBox
         depth = d;
     }
 
-    public DensityBox(double density, double fraction)
+    public DensityBox(double fraction, double density)
     {
         this();
         fluidDensity = density;
