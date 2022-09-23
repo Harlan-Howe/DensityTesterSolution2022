@@ -55,12 +55,12 @@ public class DensityTesterRunner
 
 
         // Part 6 =================================================================
-        /*
+
         System.out.println("Box A is heavier than Box B: "+BoxA.heavierThan(BoxB)); // should print true
         System.out.println("Box B is heavier than Box A: "+BoxB.heavierThan(BoxA)); // should print false
         System.out.println("Box B is heavier than Box C: "+BoxB.heavierThan(BoxC)); // should print false
         System.out.println("Box C is heavier than Box D: "+BoxC.heavierThan(BoxD)); // should print true
-        */
+
 
         // Part 7 =================================================================
         /*
